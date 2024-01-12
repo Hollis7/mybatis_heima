@@ -32,4 +32,15 @@ public interface BrandMapper {
      */
     List<Brand> selectByConditionSingle(Brand brand);
 
+    /**
+     * 添加
+     */
+    void add(Brand brand);
+
+    /**
+     * 修改
+     */
+    int update(Brand brand);
+
+
 }
